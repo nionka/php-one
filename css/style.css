@@ -1,0 +1,52 @@
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 100%;
+}
+
+.about {
+    font-size: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 320px;
+    height: 120px;
+    padding: 10px;
+}
+
+.form input {
+    padding: 10px 7px;
+    border-radius: 7px;
+}
+
+.form label {
+    font-size: 1.2rem;
+}
+
+.form button {
+    border-radius: 7px;
+    padding: 10px 7px;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.hello {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.exit {
+    display: block;
+    width: max-content;
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+}
